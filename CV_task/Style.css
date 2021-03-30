@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  float: left;
+  width: 30%;
+  background-color: #fff;
+  color: #000;
+  padding: 25px;
+  height: 100%;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.profile > img {
+  width: 100%;
+}
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2em;
+  padding-top: 10px;
+  border-top: rgb(62, 168, 255) 3px solid;
+}
+
+.contact > h3 {
+  color: #000;
+  font-style: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  letter-spacing: 1px;
+  list-style: none;
+  margin-left: 35px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.contact li {
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(62, 168, 255);
+}
+
+a:active {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(62, 168, 255);
+}
+
+#ln {
+  list-style-image: url("../CV task/images/ln_icon.png");
+}
+
+#phone {
+  list-style-image: url("../CV task/images/phone_icon.png");
+}
+
+#mail {
+  list-style-image: url("../CV task/images/mail_icon.png");
+}
+
+/* MAIN INFO */
+
+#main-info {
+  float: right;
+  width: 70%;
+  padding: 25px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.paragraph ul {
+  list-style: none;
+  margin-left: 20px;
+  line-height: 20px;
+}
+
+.division {
+  padding-top: 10px;
+  border-top: rgb(62, 168, 255) 3px solid;
+}
+
+.list-title {
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
