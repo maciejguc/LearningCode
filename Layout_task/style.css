@@ -1,0 +1,85 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.all {
+  text-align: center;
+}
+
+.top-bar {
+  height: 7%;
+  line-height: 47px;
+}
+
+.header {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-color: #0f162a;
+  color: #fff;
+}
+
+.menu {
+  float: right;
+  width: 75%;
+  height: 100%;
+  background-color: #ef3c4f;
+  color: #fff;
+}
+
+.hero {
+  background-color: #4c86c6;
+  color: #fff;
+  line-height: 350px;
+}
+
+.second-part {
+  height: 27%;
+}
+
+.main {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #24344b;
+  color: #fff;
+  line-height: 180px;
+}
+
+.empty-space {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.sidebar-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  line-height: 90px;
+}
+
+.image {
+  float: right;
+  width: 50%;
+  height: 50%;
+  background-color: #aefafc;
+}
+
+.extra {
+  float: right;
+  width: 50%;
+  height: 50%;
+  background-color: #4dbd97;
+}
+
+.banner {
+  width: 100%;
+  height: 14%;
+  background-color: #ffd269;
+  line-height: 97px;
+}
