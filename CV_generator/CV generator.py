@@ -37,19 +37,19 @@ head = (f"""<html lang="en">
 sidebar = (f"""<body>
     <div id="sidebar">
         <image>
-            <div class=profile>
+            <div class="profile">
             <img src="{data["picture"]}" alt="Couldn't locate image">
             </div>
         </image> """)
 
 contact = (f"""<contact>
-            <div class="contact">
+            <div class="contact red">
                 <h3>CONTACT</h3>
                 <ul>
-                    <li id=ln><a href="#">{data["name"]}</a><li>
-                    <li id=phone>{data["phone"]}</li>
-                    <li id=mail>{data["email"]}</li>
-                    <li id=address>{data["address"]}</li>
+                    <li id="ln"><a href="#">{data["name"]}</a><li>
+                    <li id="phone">{data["phone"]}</li>
+                    <li id="mail">{data["email"]}</li>
+                    <li id="address">{data["address"]}</li>
                 </ul>
             </div>
         </contact>
@@ -78,10 +78,10 @@ main_info = (f"""<div id="main-info">
 #         </experience> """)
 
 skills = (f"""<skills>
-            <div class="division">
+            <div class="division red">
             <h3>SKILLS</h3>
                 <div class="paragraph">
-                    <p class="list-title">Skills:</p> """)
+                    <p class="list-title">Skills:</p> <ul> """)
 
 def list_skills():
     skill_list = ""

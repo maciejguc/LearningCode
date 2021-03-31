@@ -1,0 +1,38 @@
+{
+    "pesel": "93010322335",
+    "picture": "https://i.pinimg.com/originals/1b/8c/d3/1b8cd3235ad6e1b02cc970a8850f1f17.jpg",
+    "age": 26,
+    "name": "Holland Russell",
+    "gender": "Male",
+    "company": "Fangold",
+    "email": "hollandrussell@fangold.com",
+    "phone": "+1 (910) 419-2595",
+    "address": "181 Joralemon Street, Charco, Maryland, 9970",
+    "about": "Officia fugiat excepteur nulla laboris culpa voluptate nisi tempor. Enim anim esse velit adipisicing dolor pariatur amet. Minim mollit occaecat velit ipsum in in magna labore do excepteur id. Tempor cupidatat eiusmod nisi incididunt. Quis ullamco proident mollit amet consectetur in sit proident sint reprehenderit non laboris. Nulla dolore sit quis et dolor aute fugiat laboris magna dolore.\r\n",
+    "skills": [
+        {"skill": "non", "grade": 2},
+        {"skill": "exercitation", "grade": 3.5},
+        {"skill": "pariatur", "grade": 2.5},
+        {"skill": "ipsum", "grade": 1},
+        {"skill": "excepteur", "grade": 5},
+        {"skill": "Lorem", "grade": 5},
+        {"skill": "enim", "grade": 4}
+    ],
+    "education": [
+      {
+        "id": 0,
+        "name": "School 1",
+        "time": "2007-2010"
+      },
+      {
+        "id": 1,
+        "name": "School 2",
+        "time": "2005-2007"
+      },
+      {
+        "id": 2,
+        "name": "School 3",
+        "time": "2002-2005"
+      }
+    ]
+}
