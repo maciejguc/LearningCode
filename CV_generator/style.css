@@ -1,11 +1,7 @@
-
-
 * {
   padding: 0;
   margin: 0;
 }
-
-/* SIDEBAR */
 
 #sidebar {
   float: left;
@@ -109,14 +105,14 @@ a:visited {
 }
 
 .division {
-   padding-top: 10px;
-   border-top: 3px;
+  padding-top: 10px;
+  border-top: 3px;
 }
 
-.division.red {
-  border-color: red;
+.blue {
+  border-top: rgb(62, 168, 255) 3px solid;
 }
 
-.division.blue {
-   border-color: blue;
+.red {
+  border-top: rgb(220, 20, 60) 3px solid;
 }
