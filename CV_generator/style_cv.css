@@ -106,13 +106,8 @@ a:visited {
 
 .division {
   padding-top: 10px;
-  border-top: 3px;
 }
 
 .blue {
-  border-top: rgb(62, 168, 255) 3px solid;
-}
-
-.red {
-  border-top: rgb(220, 20, 60) 3px solid;
+  border-top: rgb(51, 190, 214) 3px solid;
 }
